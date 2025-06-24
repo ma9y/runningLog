@@ -1,5 +1,5 @@
 ---
 title: runningLog
-layout: base
+layout: activities
 ---
-# My Eleventy Project
+
