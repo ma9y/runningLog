@@ -1,0 +1,19 @@
+{
+  "name": "runninglog.nosync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve & npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --watch",
+    "build": "eleventy && npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.1",
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
