@@ -1,66 +1,20 @@
 [
   {
-    "resource_state": 2,
-    "athlete": {
-      "id": 173600537,
-      "resource_state": 1
-    },
-    "name": "Afternoon Run",
-    "distance": 5217.8,
-    "moving_time": 2171,
-    "elapsed_time": 2171,
-    "total_elevation_gain": 65.4,
-    "type": "Run",
-    "sport_type": "Run",
-    "workout_type": null,
     "id": 14899102494,
-    "start_date": "2025-05-16T13:27:02Z",
-    "start_date_local": "2025-05-16T15:27:02Z",
-    "timezone": "(GMT+01:00) Europe/Prague",
-    "utc_offset": 7200,
-    "location_city": null,
-    "location_state": null,
-    "location_country": null,
-    "achievement_count": 0,
-    "kudos_count": 0,
-    "comment_count": 0,
-    "athlete_count": 1,
-    "photo_count": 0,
-    "map": {
-      "id": "a14899102494",
-      "summary_polyline": "{dnrHebc~AHsCDWHIH?NFn@n@RNNDRBp@\\NABCHc@D_AJoAD{ABYAy@DUDKPGTQz@UVK^YNSJWJw@T}@P_ADIDYBqD[qCGqA?]WyCAaASkCCsAMsAU}ACe@f@oCFaAAm@DqCF{@HmFDaAGuEH{ADwAHoA?gDTmGHi@PWPI|@KLKDKl@gG?iAEwA@u@CuAGcCQyD?yAI{ANuG?y@EkCBcAMuA]sAIeB@kAFmABa@HW@U?iBEIKEE?ADa@bBQh@Kb@o@jBu@~BKjAK\\SxAKb@Un@_@fBOrASpASz@MvAOjASn@O`ASl@Il@Mp@Gb@?PMf@E`@K^El@Un@GjAOb@UjCSbAiAnCg@zBIn@a@dB]r@SZMLGLBHPDt@HpAXT@JFHEL@f@Rn@F^Jx@?rAJrBAl@@n@TFH@NGdCAfBMpDHnA?p@O|GMzDEpD]tAGh@EHK@IAQOQ[SAIGQ?c@HSCMF[CE@IRIvB?xCInCG~@Kr@Ib@o@pBKf@A~BIpBOvAEjBGh@u@jFEj@?nAJv@@JZx@XlA?dAGd@Mf@AX",
-      "resource_state": 2
-    },
-    "trainer": false,
-    "commute": false,
-    "manual": false,
-    "private": false,
-    "visibility": "followers_only",
-    "flagged": false,
-    "gear_id": null,
-    "start_latlng": [
-      50.376629,
-      15.585797
-    ],
-    "end_latlng": [
-      50.376549,
-      15.585661
-    ],
-    "average_speed": 2.403,
-    "max_speed": 3.86,
-    "has_heartrate": true,
+    "name": "Afternoon Run",
+    "date": "2025-05-16T15:27:02Z",
+    "type": "Run",
+    "distance": "5.22",
+    "moving_time": "00:36:11",
+    "pace": "6:56",
+    "max_pace": "4:19",
+    "average_speed": "8.7",
+    "max_speed": "13.9",
     "average_heartrate": 146.6,
     "max_heartrate": 164,
-    "heartrate_opt_out": false,
-    "display_hide_heartrate_option": true,
+    "ascent": 65,
     "elev_high": 327,
     "elev_low": 292.4,
-    "upload_id": 15902280803,
-    "upload_id_str": "15902280803",
-    "external_id": "activity_19142739570.tcx",
-    "from_accepted_tag": false,
-    "pr_count": 0,
-    "total_photo_count": 0,
-    "has_kudoed": false
+    "summary_polyline": "{dnrHebc~AHsCDWHIH?NFn@n@RNNDRBp@\\NABCHc@D_AJoAD{ABYAy@DUDKPGTQz@UVK^YNSJWJw@T}@P_ADIDYBqD[qCGqA?]WyCAaASkCCsAMsAU}ACe@f@oCFaAAm@DqCF{@HmFDaAGuEH{ADwAHoA?gDTmGHi@PWPI|@KLKDKl@gG?iAEwA@u@CuAGcCQyD?yAI{ANuG?y@EkCBcAMuA]sAIeB@kAFmABa@HW@U?iBEIKEE?ADa@bBQh@Kb@o@jBu@~BKjAK\\SxAKb@Un@_@fBOrASpASz@MvAOjASn@O`ASl@Il@Mp@Gb@?PMf@E`@K^El@Un@GjAOb@UjCSbAiAnCg@zBIn@a@dB]r@SZMLGLBHPDt@HpAXT@JFHEL@f@Rn@F^Jx@?rAJrBAl@@n@TFH@NGdCAfBMpDHnA?p@O|GMzDEpD]tAGh@EHK@IAQOQ[SAIGQ?c@HSCMF[CE@IRIvB?xCInCG~@Kr@Ib@o@pBKf@A~BIpBOvAEjBGh@u@jFEj@?nAJv@@JZx@XlA?dAGd@Mf@AX"
   }
 ]

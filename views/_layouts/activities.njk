@@ -2,28 +2,25 @@
 
 {% block content %}
 
-<table>
+<table class="w-3xl mx-auto mt-5">
   <thead>
     <tr>
       <th>Date</th>
-      <th>Distance (km)</th>
-      <th>Pace (min/km)</th>
+      <th>Distance</th>
+      <th>Pace</th>
       <th>Avg HR</th>
-      <th>Ascent (m)</th>
+      <th>Ascent</th>
     </tr>
   </thead>
   <tbody>
     {% for activity in strava %}
       {% if activity.type == "Run" %}
-        <tr>
-          <td>{{ activity.start_date_local | date("yyyy-MM-dd") }}</td>
-          <td>{{ (activity.distance / 1000) | round(2) }}</td>
-          <td>
-            {% set pace = activity.moving_time / (activity.distance / 1000) %}
-            {{ (pace / 60) | floor }}:{{ (pace % 60) | round | string | padStart(2, '0') }}
-          </td>
-          <td>{{ activity.average_heartrate | default("–") }}</td>
-          <td>{{ activity.total_elevation_gain | round }}</td>
+        <tr class="text-center">
+          <td>{{ activity.date }}</td>
+          <td>{{ activity.distance }}</td>
+          <td>{{ activity.pace }}</td>
+          <td>{{ activity.average_heartrate }}</td>
+          <td>{{ activity.ascent }}</td>
         </tr>
       {% endif %}
     {% endfor %}
