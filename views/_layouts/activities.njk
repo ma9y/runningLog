@@ -16,10 +16,10 @@
     {% for activity in strava %}
       {% if activity.type == "Run" %}
         <tr class="text-center">
-          <td>{{ activity.date }}</td>
-          <td>{{ activity.distance }}</td>
+          <td>{{ activity.date | postDate2("MMM d") }}</td>
+          <td>{{ activity.distance | round(1) }}</td>
           <td>{{ activity.pace }}</td>
-          <td>{{ activity.average_heartrate }}</td>
+          <td>{{ activity.average_heartrate | round }}</td>
           <td>{{ activity.ascent }}</td>
         </tr>
       {% endif %}
